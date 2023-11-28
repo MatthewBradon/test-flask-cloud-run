@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: $(dockerRegistryServiceConnection)
+  dockerRegistryServiceConnection: lab5cloudcomputingDocker
   imageRepository: 'lab5cloudcomputing'
   containerRegistry: 'lab5cloudcomputing.azurecr.io'
   dockerfilePath: '**/Dockerfile'
