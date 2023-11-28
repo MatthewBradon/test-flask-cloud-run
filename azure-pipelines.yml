@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'lab5cloudcomputing.default'
+    environment: 'lab5cloudcomputing'
     strategy:
       runOnce:
         deploy:
